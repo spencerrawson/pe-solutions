@@ -16,6 +16,7 @@ int main()
     std::cout << "Input the size for your _ by _ matrix: " << std::endl;
     std::cin >> n;
     long long paths = 1;
+    //formula is done per number to keep within long long max value at any given step
     for(int i = 1; i <= n; i++)
     {
         paths *= n+i;
