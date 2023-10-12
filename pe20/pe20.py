@@ -1,4 +1,4 @@
-#num of digits = n*sum(n-1)+1
+#finds the sum of digits in 100!
 n=100
 fact = 1
 while n > 0:
